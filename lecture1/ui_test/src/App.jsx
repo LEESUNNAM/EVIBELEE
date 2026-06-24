@@ -1,6 +1,10 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
+import ButtonSection from './components/sections/button-section';
+import InputSection from './components/sections/input-section';
+import NavigationSection from './components/sections/navigation-section';
+
 /** 네비게이션 없이 UI 섹션들을 순차적으로 쌓아 보여주는 기본 레이아웃 */
 function App() {
   return (
@@ -23,7 +27,9 @@ function App() {
           py: 4,
         }}
       >
-        {/* 섹션 컴포넌트를 이 영역에 순차적으로 추가합니다 */}
+        <ButtonSection />
+        <InputSection />
+        <NavigationSection />
       </Container>
     </Box>
   );

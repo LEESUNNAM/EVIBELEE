@@ -5,3 +5,6 @@ dist-ssr/
 .DS_Store
 Thumbs.db
 .claude/settings.local.json
+
+# 독립 GitHub 저장소로 별도 관리되는 프로젝트
+lecture1/portfolio/
