@@ -1,3 +1,56 @@
+/* 컬러 팔레트 변수 */
+:root {
+  --color-primary: #7AAEC8;
+  --color-primary-light: #A9CADB;
+  --color-primary-dark: #3D5F73;
+  --color-secondary: #5C8099;
+  --color-accent: #C4D9EA;
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #EEF5F9;
+  --color-text-primary: #2B4A5E;
+  --color-text-secondary: #3D5F73;
+  --color-text-muted: #7AAEC8;
+  --color-button-primary: #5C8099;
+  --color-button-hover: #3D5F73;
+
+  /* 타이포그래피 */
+  --font-size-page-title: 28px;
+  --font-size-h2: 20px;
+  --font-size-nav: 14px;
+  --font-size-body: 14px;
+  --font-size-body-sm: 13px;
+  --font-size-caption: 12px;
+  --font-size-day-label: 12px;
+
+  /* 스페이싱 */
+  --spacing-2xs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+
+  /* 레이아웃 */
+  --sidebar-width: 200px;
+  --right-panel-width: 280px;
+  --avatar-size-md: 40px;
+  --avatar-size-sm: 32px;
+  --icon-size: 20px;
+  --cta-button-size: 44px;
+
+  /* 보더 라디우스 */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-circle: 50%;
+
+  /* 그림자 */
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-container: 0 8px 32px rgba(0, 0, 0, 0.10);
+}
+
+/* CSS 초기화 */
 * {
   box-sizing: border-box;
 }
@@ -7,6 +60,7 @@ html, body {
   padding: 0;
   width: 100%;
   min-height: 100vh;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
 }
 
 #root {
